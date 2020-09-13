@@ -1,0 +1,38 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.box{
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+}
+
+.boxf{
+    padding-left: 10px;
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    border-left: 10px dotted #D0D0FF;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.box:hover{
+    color: goldenrod;
+    background: yellow;
+    transition-duration: 1s;
+}
+.boxf:hover{
+    color: goldenrod;
+    background: yellow;
+    transition-duration: 1s;
+}
