@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+body{
+	background-image: url("https://images6.alphacoders.com/552/thumb-1920-552086.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	width: 100%;
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	color: #ff6600;
+}
+bg-img{
+	filter: blur(8px);
+ 	-webkit-filter: blur(8px);
+}
+table{
+	margin-left: 38.5%;
+	height: 300px;
+}
+td{
+	background: rgba(19, 19, 57, 0.5);
+	width: 2em;
+	height: 2em;
+	border: 1px dotted black;
+	text-align: center;
+	color:#ff6600;
+	font-size: 1.5em;
+}
+td:hover{
+	transition: 0.5s;
+	background-color: rgba(255, 89, 0, 0.6);
+	color: #00ffff;
+}
